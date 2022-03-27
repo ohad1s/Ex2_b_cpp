@@ -14,7 +14,7 @@ namespace ariel{
     private:
         unordered_map<int,unordered_map<int,char[100]>> my_notebook;
     public:
-//        void init_row(char row[100]);
+
         void write(int page, int row, int col, ariel::Direction direction ,  string sentence);
         void erase(int page, int row, int col, ariel::Direction direction, int num_of_chars_to_clear );
         std::string read(int page, int row, int col, ariel::Direction direction, int len_to_read );
